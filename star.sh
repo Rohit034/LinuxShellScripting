@@ -1,8 +1,8 @@
-!#/bin/bash
+#!/bin/bash
 
 read -p"Enter the number :" num
 
-for (( i=0 ; i<=$num ; i++ ))
+for (( i=1 ; i<=$num ; i++ ))
 do
   for (( j=1 ; j<=i ; j++ ))
   do
